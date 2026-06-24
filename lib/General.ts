@@ -38,8 +38,9 @@ async editEmployee() {
     await frame.locator(this.dropdown_select).selectOption(this.searchoption);
     await frame.locator (this.search_textbox).fill(this.empfirstname);
     await frame.locator(this.button_search).click();
-    await frame.locator(this.link_empname).waitFor({state :'visible',timeout :10000});
-    await frame.locator(this.link_empname).click();
+    await frame.locator(this.link_empname).first().click(); 
+    //await frame.locator(this.link_empname).waitFor({state :'visible',timeout :10000});
+    //await frame.locator(this.link_empname).click();
     await frame.locator(this.button_edit).click();
     await frame.locator(this.textbox_empmiddlename).fill(this.empmiddlename);
     console.log ("middle name is entered");
