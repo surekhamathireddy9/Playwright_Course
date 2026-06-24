@@ -56,7 +56,7 @@ async deleteEmployee(){
     await frame.locator(this.button_search).click();
     //await frame.locator(this.link_empname).waitFor({state :'visible',timeout :30000});
     await frame.locator(this.link_empname).first().click(); 
-    await frame.locator(this.check_emp).check();
+    await frame.locator(this.check_emp).first().check();
     await frame.locator(this.delete_emp).click();
 }
 
