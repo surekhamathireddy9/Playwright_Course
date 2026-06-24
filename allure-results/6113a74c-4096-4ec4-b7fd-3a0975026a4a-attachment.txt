@@ -1,0 +1,6 @@
+Application Opened
+Login completed
+Clicked on Add button
+First name & Last name entered
+Clicked on Save button
+Logout completed

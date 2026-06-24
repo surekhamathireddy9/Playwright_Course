@@ -1,0 +1,6 @@
+Application Opened
+Login completed
+middle name is entered
+nationality is entered
+Successfully employee changes are updated 
+Logout completed
